@@ -28,7 +28,7 @@ jobs:
               with:
                   host: ${{ secrets.HOST }}
                   username: ${{ secrets.USERNAME }}
-                  privateKey: ${{ secrets.PEM }}
+                  key: ${{ secrets.KEY }}
                   # password: ${{ secrets.PASSWORD }}
                   port: ${{ secrets.PORT }}
                   envs: ACCESSKEYID,ACCESSKEYSECRET
